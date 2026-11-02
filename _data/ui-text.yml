@@ -1,2 +1,5 @@
-ja: &default_ja
-  search_placeholder_text: "探したいキーワードを入力"
+ja-JP:
+  search_placeholder_text: "検索キーワードを入力..."
+
+ja:
+  search_placeholder_text: "検索キーワードを入力..."

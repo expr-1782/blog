@@ -25,7 +25,6 @@ github_username: expr-1782
 minimal_mistakes_skin: default
 search: true
 # ファビコンの指定
-site_favicon: "/assets/images/exprf.png"
 repository: expr-1782/blog-2
 # Build settings
 markdown: kramdown
