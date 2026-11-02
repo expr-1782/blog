@@ -48,7 +48,7 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-          PAGES_REPO_NWO: expr-1782/blog-2  # 👈 これを追加
+          PAGES_REPO_NWO: expr-1782/blog  # 👈 これを追加
 
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
