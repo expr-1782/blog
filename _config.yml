@@ -23,7 +23,7 @@ twitter_username: username
 github_username: expr-1782
 minimal_mistakes_skin: default
 search: true
-
+repository: expr-1782/blog-2
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
