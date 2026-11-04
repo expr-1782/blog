@@ -1,14 +1,8 @@
----
-# Jekyll用の一番上の記述（Front Matter）
----
 /* 1. Google Fonts の読み込み */
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
-
-/* 2. 変数の上書き（※必ずテーマのインポートより上に書く！） */
-$sans-serif: "M PLUS 1", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$global-font-family: $sans-serif;
-$monospace: "Courier New", Courier, monospace;
-
-/* 3. テーマ本体の読み込み */
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
+body {
+  font-family: "M PLUS 1", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
