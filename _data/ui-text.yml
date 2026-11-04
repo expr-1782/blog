@@ -1,10 +1,9 @@
-# _data/ui-text.yml
-ja-JP: &ja_text
+ja-JP:
   search_placeholder_text: "検索キーワードを入力..."
   pagination_previous: "前の記事"
   pagination_next: "次の記事"
-  less_than: "1分未満で"
-  minute_read: "読めます"
+  less_than: ""
+  minute_read: "分で読めます"
   minutes_read: "分で読めます"
   more_label: "こちらもおすすめ"
   by_label: "著者:"
