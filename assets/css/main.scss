@@ -10,8 +10,19 @@ $header-font-family : $sans-serif;
 @import "minimal-mistakes";
 /* 目次の枠線や背景を透明にしてシンプルにする */
 .toc {
-  background-color: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  padding: 0 !important;
+  background-color: transparent !important; /* グレーの背景を透明にする */
+  border: none !important;                 /* 周りの薄い枠線を消す */
+  box-shadow: none !important;             /* 影を消す */
+  /* --- 文字色の強制指定 --- */
+  color: #333333 !important;               /* 目次の通常の文字色（濃いグレー） */
+  
+  a {
+    color: #555555 !important;             /* 目次のリンク（各章のタイトル）の色 */
+    text-decoration: none;
+    
+    &:hover {
+      color: #000000 !important;           /* マウスを乗せたときの色（黒） */
+      text-decoration: underline;          /* マウスを乗せたときに下線を出す */
+    }
+  }
 }
