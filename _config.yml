@@ -24,7 +24,6 @@ twitter_username: username
 github_username: expr-1782
 minimal_mistakes_skin: default
 search: true
-# ファビコンの指定
 repository: expr-1782/blog
 # Build settings
 markdown: kramdown
@@ -64,13 +63,21 @@ author:
   avatar : "/assets/images/exprf.png"
   bio    : "expr-1782のブログです。"
   links:
-    - label: "Website"
+    - label: "リンク集"
       icon: "fas fa-fw fa-link"
       url: "https://expr-1782.github.io/expr-hp"
+    - label: "YouTube(解説系)"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.youtube.com/@expr1782-explanation"
 
 footer:
   links:
-
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-x-bluesky"
+      url: "https://bsky.app/profile/expr1782.bsky.social"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@expr1782-explanation"
 
 defaults:
   # _posts
