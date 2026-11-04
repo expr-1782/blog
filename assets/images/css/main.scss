@@ -2,17 +2,7 @@
 # フロントマター（Jekyllがこのファイルを処理するために必須の空行です）
 ---
 
-// 1. Google Fonts から「M PLUS 1」を読み込む
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
+$sans-serif  : "M PLUS 1", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
-// 2. Minimal Mistakes が使っているフォントの変数を「M PLUS 1」で上書きする
-$sans-serif: "M PLUS 1", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-
-// 3. 最後にテーマ本体をインポートする
-@import "minimal-mistakes";
-
-// 4. 太さ（フォントウェイト）などを微調整したい場合はここに追記
-body {
-  font-optical-sizing: auto;
-  font-weight: 450;
-}
+$global-font-family : $serif;
+$header-font-family : $sans-serif-narrow;
