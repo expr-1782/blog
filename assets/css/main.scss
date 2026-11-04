@@ -1,9 +1,9 @@
 ---
 # フロントマター（Jekyllがこのファイルを処理するために必須の空行です）
 ---
-
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 $serif              : Georgia, Times, serif;
 $sans-serif  : "M PLUS Rounded 1c", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
-$global-font-family : $serif;
+$global-font-family : $sans-serif;
 $header-font-family : $sans-serif;
