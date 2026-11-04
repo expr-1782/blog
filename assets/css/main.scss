@@ -7,5 +7,11 @@ $sans-serif  : "M PLUS Rounded 1c", -apple-system, BlinkMacSystemFont, "Roboto",
 
 $global-font-family : $sans-serif;
 $header-font-family : $sans-serif;
-
 @import "minimal-mistakes";
+/* 目次の枠線や背景を透明にしてシンプルにする */
+.toc {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
