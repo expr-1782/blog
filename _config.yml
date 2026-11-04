@@ -67,10 +67,10 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://expr-1782.github.io/expr-hp"
     - label: "Bluesky"
-      icon: "fab fa-fw fa-x-bluesky"
+      icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/expr1782.bsky.social"
     - label: "YouTube(解説系)"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-youtube"
       url: "https://www.youtube.com/@expr1782-explanation"
 
 footer:
@@ -79,7 +79,7 @@ footer:
       icon: "fas fa-fw fa-link"
       url: "https://expr-1782.github.io/expr-hp"
     - label: "Bluesky"
-      icon: "fab fa-fw fa-x-bluesky"
+      icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/expr1782.bsky.social"
     - label: "YouTube(解説系)"
       icon: "fab fa-fw fa-youtube"
