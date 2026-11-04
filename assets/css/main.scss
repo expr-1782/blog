@@ -20,7 +20,6 @@ $header-font-family : $sans-serif;
     top: 2em; /* 上部からの固定位置（お好みで調整） */
     max-height: calc(100vh - 4em); /* 画面からはみ出さないようにガード */
     overflow-y: auto; /* 目次が長すぎる場合は目次内スクロール可能に */
-  }
 }
 
 @import "minimal-mistakes";
