@@ -66,16 +66,22 @@ author:
     - label: "リンク集"
       icon: "fas fa-fw fa-link"
       url: "https://expr-1782.github.io/expr-hp"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-x-bluesky"
+      url: "https://bsky.app/profile/expr1782.bsky.social"
     - label: "YouTube(解説系)"
       icon: "fas fa-fw fa-link"
       url: "https://www.youtube.com/@expr1782-explanation"
 
 footer:
   links:
+    - label: "リンク集"
+      icon: "fas fa-fw fa-link"
+      url: "https://expr-1782.github.io/expr-hp"
     - label: "Bluesky"
       icon: "fab fa-fw fa-x-bluesky"
       url: "https://bsky.app/profile/expr1782.bsky.social"
-    - label: "YouTube"
+    - label: "YouTube(解説系)"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@expr1782-explanation"
 
