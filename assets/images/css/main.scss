@@ -2,7 +2,8 @@
 # フロントマター（Jekyllがこのファイルを処理するために必須の空行です）
 ---
 
-$sans-serif  : "M PLUS 1", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$serif              : Georgia, Times, serif;
+$sans-serif  : "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
 $global-font-family : $serif;
-$header-font-family : $sans-serif-narrow;
+$header-font-family : $sans-serif;
