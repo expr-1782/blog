@@ -8,4 +8,18 @@ $sans-serif  : "M PLUS Rounded 1c", -apple-system, BlinkMacSystemFont, "Roboto",
 $global-font-family : $sans-serif;
 $header-font-family : $sans-serif;
 
+/* 目次の枠線や背景を透明にしてシンプルにする */
+.toc {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* 目次のタイトル（「目次」など）の装飾をリセット */
+.toc__title {
+  border-bottom: none !important;
+  margin-top: 0 !important;
+}
+
 @import "minimal-mistakes";
