@@ -1,5 +1,4 @@
-ja:
-  # 提示いただいたベース部分
+ja: &ja_text
   search_placeholder_text: "検索キーワードを入力..."
   pagination_previous: "前の記事"
   pagination_next: "次の記事"
@@ -9,7 +8,7 @@ ja:
 
   # 記事のメタ情報・著者
   by_label: "著者:"
-  meta_label:
+  meta_label: "メタ情報"
   updated_label: "更新日:"
   minutes_read: "分で読めます"
 
@@ -31,4 +30,4 @@ ja:
   comment_form_submit: "コメントを送信"
 
 ja-JP:
-  <<: ja_text
+  <<: *ja_text
