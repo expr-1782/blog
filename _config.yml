@@ -70,7 +70,7 @@ author:
       icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/expr1782.bsky.social"
     - label: "YouTube(解説系)"
-      icon: "fas fa-fw fa-youtube"
+      icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@expr1782-explanation"
 
 footer:
