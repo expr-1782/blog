@@ -1,0 +1,16 @@
+/* ==========================================================================
+   カスタムフォント設定 (Noto Sans JP)
+   ========================================================================== */
+
+/* 1. Google Fonts から日本語フォントを読み込む */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
+/* 2. Minimal Mistakes のフォント変数を上書きする */
+
+// 本文・ベーステキスト用のフォント
+$sans-serif: "M Plus 1", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+// 記事タイトルや見出し（h1〜h6）用のフォント
+$global-font-family: $sans-serif;
+
+// ソースコードや等幅テキスト用のフォント（変更しない場合はそのままでOK）
+$monospace: "Courier New", Courier, monospace;
