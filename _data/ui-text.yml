@@ -1,33 +1,25 @@
-ja: &ja_text
+# _data/ui-text.yml
+ja-JP: &ja_text
   search_placeholder_text: "検索キーワードを入力..."
   pagination_previous: "前の記事"
   pagination_next: "次の記事"
   less_than: "1分未満で"
   minute_read: "読めます"
+  minutes_read: "分で読めます"
   more_label: "こちらもおすすめ"
-
-  # 記事のメタ情報・著者
   by_label: "著者:"
   meta_label: "メタ情報"
   updated_label: "更新日:"
-  minutes_read: "分で読めます"
-
-  # ページまわり
   share_on_label: "SNSでシェア"
   toc_label: "目次"
   overview_label: "概要"
   page_label: "ページ"
-
-  # コメント欄
   comments_label: "コメント"
   comments_title: "コメントを残す"
   comment_success_msg: "コメントが送信されました。承認後に表示されます。"
-  comment_error_msg: "エラーが発生しました。必須項目（名前、メールアドレス、コメント）が入力されているか確認してください。"
+  comment_error_msg: "エラーが発生しました。必須項目が入力されているか確認してください。"
   comment_form_name: "名前"
   comment_form_email: "メールアドレス（公開されません）"
   comment_form_website: "ウェブサイト（任意）"
   comment_form_comment: "コメント"
   comment_form_submit: "コメントを送信"
-
-ja-JP:
-  <<: *ja_text
