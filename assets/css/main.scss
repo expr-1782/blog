@@ -1,33 +1,11 @@
 ---
 # フロントマター（Jekyllがこのファイルを処理するために必須の空行です）
 ---
-
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
-
-/* --- 1. 変数の上書きは @import の前に行う --- */
 $serif              : Georgia, Times, serif;
-$sans-serif         : "M PLUS Rounded 1c", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif  : "M PLUS Rounded 1c", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
 $global-font-family : $sans-serif;
 $header-font-family : $sans-serif;
 
-/* --- 2. テーマ本体をここで読み込む（ここで breakpoint や $large が定義される） --- */
 @import "minimal-mistakes";
-
-/* --- 3. 独自のスタイルやメディアクエリは @import の後に書く --- */
-@include breakpoint($large) {
-  /* 本文右側の余白をなくす */
-  .page {
-    padding-right: 0 !important;
-  }
-  
-  /* 目次などのスクロール追従（sticky）を有効化する場合の記述例 */
-  /* ※必要に応じてセレクタ（例: .sidebar や .toc など）を調整してください */
-  .sidebar {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 2em;
-    max-height: calc(100vh - 4em);
-    overflow-y: auto;
-  }
-}
