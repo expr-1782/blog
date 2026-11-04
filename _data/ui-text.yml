@@ -2,7 +2,7 @@ ja-JP:
   search_placeholder_text: "検索キーワードを入力..."
   pagination_previous: "前の記事"
   pagination_next: "次の記事"
-  less_than: ""
+  less_than: " "
   minute_read: "分で読めます"
   minutes_read: "分で読めます"
   more_label: "こちらもおすすめ"

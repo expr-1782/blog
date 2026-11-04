@@ -2,10 +2,10 @@
    カスタムフォント設定 (M PLUS 1)
    ========================================================================== */
 
-/* 1. Google Fonts から日本語フォントを読み込む */
+/* 1. Google Fonts から日本語フォントを読み込む 
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
 
-/* 2. Minimal Mistakes のフォント変数を上書きする */
+/* 2. Minimal Mistakes のフォント変数を上書きする。
 
 // 本文・ベーステキスト用のフォント (大文字の "M PLUS 1" に修正)
 $sans-serif: "M PLUS 1", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
@@ -15,3 +15,4 @@ $global-font-family: $sans-serif;
 
 // ソースコードや等幅テキスト用のフォント
 $monospace: "Courier New", Courier, monospace;
+*/
